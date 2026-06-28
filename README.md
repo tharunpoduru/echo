@@ -5,11 +5,46 @@ Echo is an interactive living digital legacy application designed to preserve th
 🔗 **Live App**: [dreamhouse-echoes.lovable.app](https://dreamhouse-echoes.lovable.app/)  
 💬 **Community Showcase**: [Tavus Showcase](https://community.tavus.io/showcase/echo-u58ex)
 
+---
+
+## 📸 Experience & Screenshots
+
+### 1. Landing Page
+![Echo Landing Page](docs/screenshots/landing.jpg)
+
+---
+
+### 2. Memory Cottage (Home)
+![Echo Memory Cottage Home](docs/screenshots/home.jpg)
+
+---
+
+### 3. Interactive Experience (Tavus Persona Video AI)
+![Interactive Experience](docs/screenshots/interactive-experience.jpg)
+
+---
+
+### 4. Onboarding Flow
+
+| Step 1: Name Your House | Step 2: Add Members |
+| :---: | :---: |
+| ![Name Your House](docs/screenshots/onboarding-step1.png) | ![Add Members](docs/screenshots/onboarding-step2.png) |
+
+| Step 3: Assign Rooms | Step 4: Send Invites |
+| :---: | :---: |
+| ![Assign Rooms](docs/screenshots/onboarding-step3.png) | ![Send Invites](docs/screenshots/onboarding-step4.png) |
+
+| Step 5: Review Configuration | Step 6: Pick a Character |
+| :---: | :---: |
+| ![Review Configuration](docs/screenshots/onboarding-step5.png) | ![Pick a Character](docs/screenshots/onboarding-step6.png) |
+
+---
+
 ## 🌟 Key Features
 
 - **Interactive Memory Cottage (`/house`)**: An interactive visual experience mapping family members and their shared stories to themed rooms (The Attic, The Study, The Living Room, Kitchen, etc.).
 - **Interactive Persona Conversations**: Integrates with [Tavus](https://www.tavus.io/) video AI technology to engage in natural, conversational interactions with preserved digital personas.
-- **Custom Onboarding Flow**: Add family members, allocate memory spaces, and customize legacy details seamlessly.
+- **Custom Onboarding Flow**: Add family members, allocate memory spaces, select house guardians, and customize legacy details seamlessly.
 - **Family-Controlled Privacy**: Designed for secure local configuration and family-governed memory preservation.
 
 ## 🛠️ Tech Stack
@@ -54,6 +89,7 @@ Echo is an interactive living digital legacy application designed to preserve th
 ## 🗂️ Project Structure
 
 ```
+├── docs/screenshots/   # Application screenshots for repository documentation
 ├── src/
 │   ├── assets/         # Images, logo assets, and room JSON metadata
 │   ├── components/     # UI components and onboarding interactive flows
